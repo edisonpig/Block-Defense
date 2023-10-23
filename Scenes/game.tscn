@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://cl4uneonhovw7"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Background" type="Node2D" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="Background"]
+offset_right = 576.0
+offset_bottom = 1024.0
+color = Color(0.94902, 0.988235, 0.980392, 1)
+
+[node name="UI" type="Node2D" parent="."]
+
+[node name="Score" type="Node2D" parent="."]
+
+[node name="Buttons" type="Node2D" parent="."]
+
+[node name="Emitters" type="Node2D" parent="."]
+
+[node name="Globals" type="Node2D" parent="."]
